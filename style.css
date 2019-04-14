@@ -25,6 +25,27 @@ a:hover{
     text-decoration: none;
 }
 
+.navbar{
+    background-color: #343a40; /*bootstrap dark*/
+    border-bottom: 5px solid #ffc107; /*bootstrap warning*/
+}
+
+#myName{
+    color: #ffc107;  /*bootstrap secondary*/
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.profileLink{
+    color: #6c757d; /*bootstrap secondary*/
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.profileLink:hover{
+    color: #ffc107;
+}
+
 .mainDiv{
     margin: auto;
 }
@@ -39,7 +60,7 @@ a:hover{
 
 .projectLink:hover{
     border-color: #ffc107; /*bootstrap warning*/
-    color: #ffc107; /*bootstrap warning*/
+    color: #ffc107;
 }
 
 .projectTitle{
@@ -49,6 +70,15 @@ a:hover{
 
 .projectDate{
     font-weight: normal;
+}
+
+.repoLink{
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.repoLink:hover{
+    color: #ffc107;
 }
 
 .projectText{
