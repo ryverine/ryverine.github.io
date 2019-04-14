@@ -31,13 +31,13 @@ a:hover{
 }
 
 #myName{
-    color: #ffc107;  /*bootstrap secondary*/
+    color: #ffc107;
     font-size: 32px;
     font-weight: bolder;
 }
 
 .profileLink{
-    color: #6c757d; /*bootstrap secondary*/
+    color: #ffc107;
     font-weight: normal;
     font-size: 18px;
 }
