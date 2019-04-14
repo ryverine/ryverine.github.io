@@ -1,0 +1,53 @@
+
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6c757d; /*bootstrap secondary*/
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p{
+    margin: 0px;
+    padding: 2px;
+}
+
+
+body{
+    background-image: url("prism.png");
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.projectLink{
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 40%;
+    background-image: url("dark-honeycomb.png");
+    border: 5px solid #343a40; /*bootstrap dark*/
+}
+
+.projectLink:hover{
+    border-color: #ffc107; /*bootstrap warning*/
+    color: #ffc107; /*bootstrap warning*/
+}
+
+.projectTitle{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.projectDate{
+    font-weight: normal;
+}
+
+.projectText{
+    font-size: 18px;
+}
+
