@@ -25,10 +25,14 @@ a:hover{
     text-decoration: none;
 }
 
+.mainDiv{
+    margin: auto;
+}
+
 .projectLink{
     margin: 20px auto 20px auto;
     padding: 20px;
-    width: 40%;
+    width: 100%;
     background-image: url("dark-honeycomb.png");
     border: 5px solid #343a40; /*bootstrap dark*/
 }
