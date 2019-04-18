@@ -34,12 +34,14 @@ a:hover{
     color: #ffc107;
     font-size: 32px;
     font-weight: bolder;
+    margin-left: 10vw;
 }
 
 .profileLink{
     color: #ffc107;
     font-weight: normal;
     font-size: 18px;
+    margin-right: 10vw;
 }
 
 .profileLink:hover{
