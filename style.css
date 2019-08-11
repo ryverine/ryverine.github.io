@@ -27,7 +27,18 @@ a:hover{
 
 .navbar{
     background-color: #343a40; /*bootstrap dark*/
-    border-bottom: 5px solid #ffc107; /*bootstrap warning*/
+    padding: 2px;
+    /* border-bottom: 5px solid #ffc107; bootstrap warning */
+}
+
+.email-bar{
+    width: 100%;
+    background-color: #ffc107; /*bootstrap warning*/
+}
+
+.email-text{
+    margin-left: 10vw;
+    color: #343a40; /*bootstrap dark*/
 }
 
 #myName{
@@ -37,12 +48,17 @@ a:hover{
     margin-left: 10vw;
 }
 
+.pageTitle{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
 .profileLink{
     color: #ffc107;
-    font-weight: normal;
     font-size: 18px;
-    margin-right: 10vw;
+    margin-right: 5vw;
     height: 48px;
+    font-weight: 400;
 }
 
 .profileLink:hover{
@@ -60,6 +76,8 @@ a:hover{
     background-image: url("dark-honeycomb.png");
     border: 5px solid #343a40; /*bootstrap dark*/
 }
+
+
 
 .projectLink:hover{
     border-color: #ffc107; /*bootstrap warning*/

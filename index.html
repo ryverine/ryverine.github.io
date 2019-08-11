@@ -21,26 +21,101 @@
       <link rel="stylesheet" href="style.css">
   
   </head>
+<!--
+  <i class="fas fa-code-branch"></i>
+   <i class="fas fa-cogs"></i>
+<i class="fas fa-hammer"></i>
+<i class="fas fa-laptop-code"></i>
+<i class="fas fa-pencil-alt"></i>
 
+<i class="fas fa-puzzle-piece"></i>
+<i class="fas fa-project-diagram"></i>
+
+<i class="fas fa-snowplow"></i>
+<i class="fas fa-tools"></i>
+<i class="fas fa-toolbox"></i>
+<i class="fas fa-user-cog"></i>
+
+
+   <i class="far fa-file-code"></i>
+
+
+
+-->
   <body>
-
+     
     <nav class="navbar">
-      <span id="myName">Ryan Cheek</span>
-      <span><a href="https://github.com/ryverine">
-        <button type="button" class="btn btn-dark fab fa-github profileLink"> 
-          GitHub Profile</button>
-        </a></span>
-        <!--
-                  <button type="button" class="btn btn-dark fab fa-github herokuLink"> 
-          Heroku Profile</button>
-        </a></span>  
-        -->
+      <span id="myName">Ryan Cheek </span>
+      <span>
+          <a href="projects.html">
+            <button type="button" class="btn btn-dark far fa-file-code profileLink"> All Projects</button>
+          </a>
+  
+          <a href="https://github.com/ryverine">
+            <button type="button" class="btn btn-dark fab fa-github profileLink"> GitHub Profile</button>
+          </a>
 
+          <a href="https://www.linkedin.com/in/ryan-cheek-032125181/">
+            <button type="button" class="btn btn-dark fab fa-linkedin profileLink"> LinkedIn</button>
+          </a>
+        </span>
     </nav>
+    <div class="navbar email-bar">
+        <span class="email-text">rwcheek@gmail.com</span>
+    </div>
 
     <div class="container">
       <div class="row">
         <div class="col-8 mainDiv">
+        
+            <a href="https://ryverine.github.io/unit-4-game">
+              <div class="projectLink">
+                <p class="projectTitle">Star Wars RPG Fighter</p>
+                <p class="projectDate">4/6/2019</p>
+                <p><a class="repoLink" href="https://github.com/ryverine/unit-4-game">GitHub Repository</a></p>
+                <p class="projectText">
+                    Creating an interactive game for web browsers. Pit classic Star Wars heroes against the most infamous villians from a galaxy far, far away. This app dynamically updates HTML pages with use of the jQuery JavaScript library.
+                  </p>
+              </div>
+            </a>
+
+            <a href="https://ryverine.github.io/TrainScheduler">
+              <div class="projectLink">
+                <p class="projectTitle">Train Scheduler</p>
+                <p class="projectDate">4/27/2019</p>
+                <p><a class="repoLink" href="https://github.com/ryverine/TrainScheduler">GitHub Repository</a></p>
+                <p class="projectText">
+                  A train schedule application that incorporates Firebase to host arrival and departure data. Using Momment.js to manipulate some data elements. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
+                  </p>
+              </div>
+            </a>
+
+            <a href="https://safe-gorge-84427.herokuapp.com/">
+              <div class="projectLink">
+                <p class="projectTitle">Eat-Da-Burger</p>
+                <p class="projectDate">6/20/2019</p>
+                <p><a class="repoLink" href="https://github.com/ryverine/Burger">GitHub Repository</a></p>
+                <p class="projectText">
+                    A burger "logger" with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars generates the HTML.
+                </p>
+                <p class="projectText">This is a Node application that is deplyed in Heroku so that it can be accessed via a web browser.</p>
+              </div>
+            </a>
+  
+            <a href="https://secret-journey-43125.herokuapp.com/">
+              <div class="projectLink">
+                <p class="projectTitle">Route 420</p>
+                <p class="projectDate">7/6/2019</p>
+                <p><a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">Main GitHub Repository</a></p>
+                <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p>
+                <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
+                <p class="projectText">Group project #2.</p>
+                <p class="projectText">
+                  An app that specificly catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores. The back-end consists of a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS. Due to some complicaitons the front-end and back-end are not yet working in concert.
+                </p>
+                <p class="projectText">This is a Node application and the back-end is deployed in Heroku. The front-end work is viewable via GitHub Pages.</p>
+              </div>
+            </a>
 
           <a href="https://gentle-forest-79626.herokuapp.com/"><!-- -->
             <div class="projectLink">
@@ -53,188 +128,6 @@
               <p class="projectText">This is a Node application and it is deployed in Heroku so that you can access the app via your web browser.</p>
             </div>
           </a>
-
-          <a href="https://ryverine.github.io/updated-portfolio-2/">
-            <div class="projectLink">
-              <p class="projectTitle">Updated Portfolio 2</p>
-              <p class="projectDate">7/13/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/updated-portfolio-2">GitHub Repository</a></p>
-              <p class="projectText">
-                Updating portfolio.
-              </p>
-            </div>
-          </a>
-
-          <a href="https://secret-journey-43125.herokuapp.com/">
-            <div class="projectLink">
-              <p class="projectTitle">Route 420</p>
-              <p class="projectDate">7/6/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">Main GitHub Repository</a></p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p>
-              <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
-              <p class="projectText">Group project #2.</p>
-              <p class="projectText">
-                An app that specificly catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores. The back-end consists of a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS. Due to some complicaitons the front-end and back-end are not yet working in concert.
-              </p>
-              <p class="projectText">This is a Node application and the back-end is deployed in Heroku. The front-end work is viewable via GitHub Pages.</p>
-            </div>
-          </a>
-
-          <a href="https://safe-gorge-84427.herokuapp.com/">
-            <div class="projectLink">
-              <p class="projectTitle">Eat-Da-Burger</p>
-              <p class="projectDate">6/20/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Burger">GitHub Repository</a></p>
-              <p class="projectText">
-                  A burger "logger" with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars generates the HTML.
-              </p>
-              <p class="projectText">This is a Node application that is deplyed in Heroku so that it can be accessed via a web browser.</p>
-            </div>
-          </a>
-
-          <a href="https://secure-bayou-56326.herokuapp.com/">
-            <div class="projectLink">
-              <p class="projectTitle">FriendFinder</p>
-              <p class="projectDate">6/13/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/FriendFinder">GitHub Repository</a></p>
-              <p class="projectText">A compatibility-based "FriendFinder" application. This full-stack site will take in data from a user survey, then compare the answers with those from other users. The app will then display the name of the user with the best overall match. 
-              </p>
-              <p class="projectText">This is a Node JS app, but it has been deployed to Heroku. Using Express to handle routing.</p>
-            </div>
-          </a>
-
-          <a href="https://github.com/ryverine/bamazon">
-            <div class="projectLink">
-              <p class="projectTitle">Bamazon</p>
-              <p class="projectDate">6/6/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/bamazon">GitHub Repository</a></p>
-              <p class="projectText">An Amazon-like storefront created in Node.js which communicates with an external MySQL database. This app will take in orders from customers and, after an order, will calculate remaining stock and update the store's inventory. 
-              </p>
-              <p class="projectText">Since this is a command line Node JS application it will not operate in your web browser.</p>
-            </div>
-          </a>
-
-          <a href="https://github.com/ryverine/liri-node-app">
-            <div class="projectLink">
-              <p class="projectTitle">LIRI Bot</p>
-              <p class="projectDate">5/18/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/liri-node-app">GitHub Repository</a></p>
-              <p class="projectText">LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
-              <p class="projectText">With LIRI you can searh BandsInTown for an artist's upcoming events, search Spotify for a specific song, and search OMDB for details of a specific movie.</p>
-              <p class="projectText">Since this is a command line Node JS application it will not operate in your web browser.</p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/updated-portfolio/">
-            <div class="projectLink">
-              <p class="projectTitle">Updated Portfolio</p>
-              <p class="projectDate">5/11/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/updated-portfolio">GitHub Repository</a></p>
-              <p class="projectText">
-                Updating responsive portfolio.
-              </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/pet-book">
-            <div class="projectLink">
-              <p class="projectTitle">Pet Book</p>
-              <p class="projectDate">5/4/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/pet-book">GitHub Repository</a></p>
-              <!--<p><a class="repoLink" href="https://ryverine.github.io/pet-book-test">Pet Book Tester</a></p>--->
-              <p class="projectText">
-                Group project #1
-              </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/TrainScheduler">
-            <div class="projectLink">
-              <p class="projectTitle">Train Scheduler</p>
-              <p class="projectDate">4/27/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/TrainScheduler">GitHub Repository</a></p>
-              <p class="projectText">
-                A train schedule application that incorporates Firebase to host arrival and departure data. Using Momment.js to manipulate some data elements. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
-                </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/GifTastic">
-            <div class="projectLink">
-              <p class="projectTitle">GIFtastic Safari</p>
-              <p class="projectDate">4/20/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/GifTastic">GitHub Repository</a></p>
-              <p class="projectText">
-                  Using the GIPHY API to make a dynamic web page that populates with gifs of your choice. Calls made to the GIPHY API, and then JavaScript and jQuery are used to change the HTML.
-                </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/TriviaGame">
-            <div class="projectLink">
-              <p class="projectTitle">Stardew Valley Trivia Quiz</p>
-              <p class="projectDate">4/13/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/TriviaGame">GitHub Repository</a></p>
-              <p class="projectText">
-                  Creating a trivia game using JavaScript for the logic and jQuery to manipulate HTML. The theme of this game is the wonderful world of Stardew Valley. Each question is timed, and the player's answers (correct and incorrect) will be tallied and displayed at the end of the quiz.
-                </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/unit-4-game">
-            <div class="projectLink">
-              <p class="projectTitle">Star Wars RPG Fighter</p>
-              <p class="projectDate">4/6/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/unit-4-game">GitHub Repository</a></p>
-              <p class="projectText">
-                  Creating an interactive game for web browsers. Pit classic Star Wars heroes against the most infamous villians from a galaxy far, far away. This app dynamically updates HTML pages with use of the jQuery JavaScript library.
-                </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/Word-Guess-Game">
-            <div class="projectLink">
-              <p class="projectTitle">Super Mario Word Guess</p>
-              <p class="projectDate">3/30/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Word-Guess-Game">GitHub Repository</a></p>
-              <p class="projectText">
-                  Creating a "hangman" word guessing style game with a Super Mario theme. This runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
-                </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/Responsive-Portfolio">
-            <div class="projectLink">
-                <p class="projectTitle">Responsive Portfolio</p>
-                <p class="projectDate">3/23/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Responsive-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                  Enhancing the basic portfolio with a mobile-responsive layout.
-                </p>
-            </div>
-            </a>
-
-            <a href="https://ryverine.github.io/Bootstrap-Portfolio">
-              <div class="projectLink">
-                <p class="projectTitle">Bootstrap Portfolio</p>
-                <p class="projectDate">3/23/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Bootstrap-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                    Re-building the basic portfolio layout using the Bootstrap CSS Framework. 
-                </p>
-              </div>
-            </a>
-
-            <a href="https://ryverine.github.io/Basic-Portfolio">
-              <div class="projectLink">
-                <p class="projectTitle">Basic Portfolio</p> 
-                <p class="projectDate">3/16/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Basic-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                    Building a professional portfolio site using HTML/CSS. Designing an aesthetically pleasing layout while creating different kinds of complex HTML elements.
-                </p>
-              </div>
-            </a>
 
         </div> <!-- /mainDiv -->
       </div> <!-- /row -->
