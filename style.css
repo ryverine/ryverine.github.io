@@ -41,6 +41,11 @@ a:hover{
     color: #343a40; /*bootstrap dark*/
 }
 
+.skills{
+    margin-right: 4vw;
+    color: #343a40;
+}
+
 #myName{
     color: #ffc107;
     font-size: 32px;
