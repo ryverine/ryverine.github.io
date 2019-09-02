@@ -82,8 +82,6 @@ a:hover{
     border: 5px solid #343a40; /*bootstrap dark*/
 }
 
-
-
 .projectLink:hover{
     border-color: #ffc107; /*bootstrap warning*/
     color: #ffc107;
@@ -109,5 +107,11 @@ a:hover{
 
 .projectText{
     font-size: 18px;
+    margin-top: 5px;
 }
 
+.dark-bg{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
