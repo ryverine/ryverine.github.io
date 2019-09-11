@@ -72,6 +72,7 @@ a:hover{
 
 .mainDiv{
     margin: auto;
+    width: 80%;
 }
 
 .projectLink{
@@ -108,6 +109,37 @@ a:hover{
 .projectText{
     font-size: 18px;
     margin-top: 5px;
+}
+
+.aboutText{
+    color:  #6c757d;
+    margin: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.aboutTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color:  #6c757d;
+    margin: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.goLinkText{
+    color: #6c757d;;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goLinkButton{
+    margin: 0px;
+    font-size: 18px;
+    background: none;
+    color: #6c757d;;
+    font-weight: bolder;
+    float: right;
 }
 
 .dark-bg{
