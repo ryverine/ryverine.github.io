@@ -14,7 +14,7 @@ p{
 
 
 body{
-    background-image: url("prism.png");
+    background-image: url("grey_wash_wall.png");
 }
 
 a{
@@ -26,7 +26,8 @@ a:hover{
 }
 
 .navbar{
-    background-color: #343a40; /*bootstrap dark*/
+    /*background-color: #343a40; bootstrap dark*/
+    background-image: url("prism.png");
     padding: 2px;
     /* border-bottom: 5px solid #ffc107; bootstrap warning */
 }
@@ -44,6 +45,7 @@ a:hover{
 .skills{
     margin-right: 4vw;
     color: #343a40;
+    float: right;
 }
 
 #myName{
@@ -64,6 +66,8 @@ a:hover{
     margin-right: 5vw;
     height: 48px;
     font-weight: 400;
+    background: none;
+    border-color: transparent;
 }
 
 .profileLink:hover{
@@ -112,7 +116,7 @@ a:hover{
 }
 
 .aboutText{
-    color:  #6c757d;
+    color:  #bbc0c4;
     margin: 5px;
     width: 80%;
     margin: auto;
@@ -121,14 +125,14 @@ a:hover{
 .aboutTitle{
     font-size: 24px;
     font-weight: bold;
-    color:  #6c757d;
+    color:  #bbc0c4;
     margin: 5px;
     width: 80%;
     margin: auto;
 }
 
 .goLinkText{
-    color: #6c757d;;
+    color: #6c757d;
     font-weight: bold;
     font-size: 18px;
 }
@@ -137,7 +141,7 @@ a:hover{
     margin: 0px;
     font-size: 18px;
     background: none;
-    color: #6c757d;;
+    color: #6c757d;
     font-weight: bolder;
     float: right;
 }
@@ -145,7 +149,7 @@ a:hover{
 .dark-bg{
     margin: 5px;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
