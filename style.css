@@ -1,4 +1,5 @@
 
+/* Global style */
 
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -7,14 +8,18 @@
     font-size: 16px;
 }
 
+/* Element styles */
+
 p{
     margin: 0px;
     padding: 2px;
 }
 
-
 body{
     background-image: url("grey_wash_wall.png");
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 a{
@@ -25,11 +30,83 @@ a:hover{
     text-decoration: none;
 }
 
+/* ID styles */
+
+#footer{
+    /*background: #343a40;*/
+    background-image: url("dark-honeycomb.png");
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#footerTopBar{
+    background: #343a40;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#footerContent{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+#myName{
+    color: #ffc107;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 10vw;
+}
+
+#submit-btn{
+    border: 2px solid #343a40;
+    font-weight: bold;
+    margin-left: 2em;
+    padding: 5px 5em 5px 5em;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#submit-btn:hover{
+    border: 2px solid #343a40;
+    color: #343a40;
+    background-color: #ffc107;
+}
+
+/* Class styles */
+
+.defaultContentContainer{
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 5px solid #343a40;
+}
+
+.inputFields{
+    color: #343a40;
+    border: 2px solid #343a40;
+    width: 75%;
+    margin-left: 2em;
+    margin-top: 5px;
+    font-weight: normal;
+    padding: 5px;
+}
+
 .navbar{
-    /*background-color: #343a40; bootstrap dark*/
     background-image: url("prism.png");
     padding: 2px;
-    /* border-bottom: 5px solid #ffc107; bootstrap warning */
 }
 
 .email-bar{
@@ -46,13 +123,6 @@ a:hover{
     margin-right: 4vw;
     color: #343a40;
     float: right;
-}
-
-#myName{
-    color: #ffc107;
-    font-size: 32px;
-    font-weight: bolder;
-    margin-left: 10vw;
 }
 
 .pageTitle{
@@ -87,8 +157,6 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.4);
     border: 5px solid #343a40; /*bootstrap dark*/
 }
-
-
 
 .dark-bg{
     margin: 5px;
@@ -157,6 +225,7 @@ a:hover{
     background: none;
     color: #6c757d;
     font-weight: bolder;
+    border-color: transparent;
     float: right;
 }
 
@@ -166,6 +235,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* Media Query */
 
 @media only screen and (max-width: 900px) {
     .email-text{
