@@ -44,7 +44,7 @@ a:hover{
 }
 
 #footerTopBar{
-    background: #343a40;
+    background: #ffc107;/*#343a40;*/
     width: 100%;
     height: 10px;
     position: relative;
