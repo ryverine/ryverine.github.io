@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #6c757d; /*bootstrap secondary*/
+    color:  #bbc0c4;
     font-weight: bold;
     font-size: 16px;
 }
@@ -83,8 +83,17 @@ a:hover{
     margin: 20px auto 20px auto;
     padding: 20px;
     width: 100%;
-    background-image: url("dark-honeycomb.png");
+    /*background-image: url("dark-honeycomb.png");*/
+    background-color: rgba(0, 0, 0, 0.4);
     border: 5px solid #343a40; /*bootstrap dark*/
+}
+
+
+
+.dark-bg{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .projectLink:hover{
@@ -93,16 +102,20 @@ a:hover{
 }
 
 .projectTitle{
+    color: #6c757d; /*bootstrap secondary*/
+    padding: 0.5em;
     font-size: 24px;
     font-weight: bolder;
+    background-image: url("dark-honeycomb.png");
 }
 
 .projectDate{
+    color:  #bbc0c4;
     font-weight: normal;
 }
 
 .repoLink{
-    color: #6c757d;
+    color:  #bbc0c4;
     font-weight: normal;
 }
 
@@ -111,6 +124,7 @@ a:hover{
 }
 
 .projectText{
+    margin-left: 2em;
     font-size: 18px;
     margin-top: 5px;
 }
