@@ -3,7 +3,7 @@
 
   <head>
       <meta charset="UTF-8">
-      <title>Ryverine GitHub Projects</title>
+      <title>Ryan Cheek</title>
   
       <!-- Added link to the jQuery Library
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  -->
@@ -21,37 +21,109 @@
       <link rel="stylesheet" href="style.css">
   
   </head>
+<!--
+  <i class="fas fa-code-branch"></i>
+   <i class="fas fa-cogs"></i>
+<i class="fas fa-hammer"></i>
+<i class="fas fa-laptop-code"></i>
+<i class="fas fa-pencil-alt"></i>
+
+<i class="fas fa-puzzle-piece"></i>
+<i class="fas fa-project-diagram"></i>
+
+<i class="fas fa-snowplow"></i>
+<i class="fas fa-tools"></i>
+<i class="fas fa-toolbox"></i>
+<i class="fas fa-user-cog"></i>
+
+
+   <i class="far fa-file-code"></i>
+
+
+   <i class="fas fa-envelope-open-text"></i>
+   <i class="fas fa-envelope-square"></i>
+   <i class="fas fa-file-export"></i>
+   <i class="far fa-envelope-open"></i>
+-->
 
   <body>
+     
     <nav class="navbar">
-        <span id="myName">Ryan Cheek</span>
-        <span class="pageTitle">All Projects</span>
-        <span>
-            <a href="index.html">
-                <button type="button" class="btn btn-dark fas fa-arrow-alt-circle-left profileLink"> Home</button>
-            </a>
+      <span id="myName">Ryan Cheek </span>
+      <span>
+          <a href="projects.html">
+            <button type="button" class="btn btn-dark far fa-file-code profileLink"> All Projects</button>
+          </a>
 
-            <a href="https://github.com/ryverine">
-                <button type="button" class="btn btn-dark fab fa-github profileLink"> GitHub Profile</button>
-            </a>
+          <a href="contact.html">
+            <button type="button" class="btn btn-dark far fa-envelope-open profileLink"> Contact</button>
+          </a>
+  
+          <a href="https://github.com/ryverine">
+            <button type="button" class="btn btn-dark fab fa-github profileLink"> GitHub</button>
+          </a>
 
-            <a href="https://www.linkedin.com/in/ryan-cheek-032125181/">
-                <button type="button" class="btn btn-dark fab fa-linkedin profileLink"> LinkedIn</button>
-              </a>
+          <a href="https://www.linkedin.com/in/ryan-cheek-032125181/">
+            <button type="button" class="btn btn-dark fab fa-linkedin profileLink"> LinkedIn</button>
+          </a>
         </span>
     </nav>
-    <div class="navbar email-bar">
+    <div class="email-bar">
         <span class="email-text">rwcheek@gmail.com</span>
+        <span class="skills">HTML &#8226; CSS &#8226; JavaScript &#8226; jQuery &#8226; Node &#8226; React &#8226; MySQL &#8226; MongoDB</span>
     </div>
-       
 
     <div class="container">
+
       <div class="row">
-        <div class="col-8 mainDiv">
+
+          <a href="https://route420react.herokuapp.com/">
+            <div class="projectLink">
+                <p class="projectTitle">Route 420</p>
+
+              <p class="projectText">
+                  An app that builds a community around a specific product. Catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores.</p>
+
+              <p>&nbsp;</p>
+
+              <p class="projectText">
+                To access commenting functionality, log in with this dummy account info: 
+                <ul>
+                  <li><strong>Email:</strong> user@email.com</li>
+                  <li><strong>Password:</strong> welcome1</li>
+                </ul>
+              </p>
+
+              <p class="projectTitle">Route 420 (React Version)
+              </p>
+              <p class="projectDate">8/22/2019</p>
+              <p><a class="repoLink" href="https://route420react.herokuapp.com/">Deployed App</a></p>
+              <p><a class="repoLink" href="https://github.com/ryverine/route420react">GitHub Repository</a></p>
+              <p class="projectText">
+                This app was built with React JS and utilizes a Mongo database. Mogoose is used in conjunction with Mongo to provide some relational fuctionality for our data.
+              </p>
+
+              <p>&nbsp;</p>
+
+              <p class="projectTitle">Route 420 (Non-React version)
+              </p>
+              <p class="projectDate">7/6/2019</p>
+              <p><a class="repoLink" href="https://route420.herokuapp.com/">Back-end deployment</a></p>
+              <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
+              <p><a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">GitHub Repository</a></p>
+              <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p>
+              <p class="projectText">The back-end consists of a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS. Due to some complicaitons the front-end and back-end are not yet working in concert, but we have both deployed. The back-end is deployed in Heroku, and he front-end work is viewable via GitHub Pages.</p>
+            </div>
+          </a>
+
+
+
 
           <a href="https://gentle-forest-79626.herokuapp.com/"><!-- -->
             <div class="projectLink">
-              <p class="projectTitle">Reddit.com/r/news Scraper</p>
+              <p class="projectTitle">r/News Scraper
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">7/20/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/mongo-mongoose-hw">GitHub Repository</a></p>
               <p class="projectText">
@@ -61,35 +133,11 @@
             </div>
           </a>
 
-          <a href="https://ryverine.github.io/updated-portfolio-2/">
-            <div class="projectLink">
-              <p class="projectTitle">Updated Portfolio 2</p>
-              <p class="projectDate">7/13/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/updated-portfolio-2">GitHub Repository</a></p>
-              <p class="projectText">
-                Updating portfolio.
-              </p>
-            </div>
-          </a>
-
-          <a href="https://secret-journey-43125.herokuapp.com/">
-            <div class="projectLink">
-              <p class="projectTitle">Route 420</p>
-              <p class="projectDate">7/6/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">Main GitHub Repository</a></p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p>
-              <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
-              <p class="projectText">Group project #2.</p>
-              <p class="projectText">
-                An app that specificly catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores. The back-end consists of a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS. Due to some complicaitons the front-end and back-end are not yet working in concert.
-              </p>
-              <p class="projectText">This is a Node application and the back-end is deployed in Heroku. The front-end work is viewable via GitHub Pages.</p>
-            </div>
-          </a>
-
           <a href="https://safe-gorge-84427.herokuapp.com/">
             <div class="projectLink">
-              <p class="projectTitle">Eat-Da-Burger</p>
+              <p class="projectTitle">Eat-Da-Burger
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">6/20/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/Burger">GitHub Repository</a></p>
               <p class="projectText">
@@ -101,7 +149,9 @@
 
           <a href="https://secure-bayou-56326.herokuapp.com/">
             <div class="projectLink">
-              <p class="projectTitle">FriendFinder</p>
+              <p class="projectTitle">FriendFinder
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">6/13/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/FriendFinder">GitHub Repository</a></p>
               <p class="projectText">A compatibility-based "FriendFinder" application. This full-stack site will take in data from a user survey, then compare the answers with those from other users. The app will then display the name of the user with the best overall match. 
@@ -112,7 +162,9 @@
 
           <a href="https://github.com/ryverine/bamazon">
             <div class="projectLink">
-              <p class="projectTitle">Bamazon</p>
+              <p class="projectTitle">Bamazon
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">6/6/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/bamazon">GitHub Repository</a></p>
               <p class="projectText">An Amazon-like storefront created in Node.js which communicates with an external MySQL database. This app will take in orders from customers and, after an order, will calculate remaining stock and update the store's inventory. 
@@ -123,7 +175,9 @@
 
           <a href="https://github.com/ryverine/liri-node-app">
             <div class="projectLink">
-              <p class="projectTitle">LIRI Bot</p>
+              <p class="projectTitle">LIRI Bot
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">5/18/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/liri-node-app">GitHub Repository</a></p>
               <p class="projectText">LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
@@ -132,32 +186,11 @@
             </div>
           </a>
 
-          <a href="https://ryverine.github.io/updated-portfolio/">
-            <div class="projectLink">
-              <p class="projectTitle">Updated Portfolio</p>
-              <p class="projectDate">5/11/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/updated-portfolio">GitHub Repository</a></p>
-              <p class="projectText">
-                Updating responsive portfolio.
-              </p>
-            </div>
-          </a>
-
-          <a href="https://ryverine.github.io/pet-book">
-            <div class="projectLink">
-              <p class="projectTitle">Pet Book</p>
-              <p class="projectDate">5/4/2019</p>
-              <p><a class="repoLink" href="https://github.com/ryverine/pet-book">GitHub Repository</a></p>
-              <!--<p><a class="repoLink" href="https://ryverine.github.io/pet-book-test">Pet Book Tester</a></p>--->
-              <p class="projectText">
-                Group project #1
-              </p>
-            </div>
-          </a>
-
           <a href="https://ryverine.github.io/TrainScheduler">
             <div class="projectLink">
-              <p class="projectTitle">Train Scheduler</p>
+              <p class="projectTitle">Train Scheduler
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">4/27/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/TrainScheduler">GitHub Repository</a></p>
               <p class="projectText">
@@ -168,7 +201,9 @@
 
           <a href="https://ryverine.github.io/GifTastic">
             <div class="projectLink">
-              <p class="projectTitle">GIFtastic Safari</p>
+              <p class="projectTitle">GIFtastic Safari
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">4/20/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/GifTastic">GitHub Repository</a></p>
               <p class="projectText">
@@ -179,7 +214,9 @@
 
           <a href="https://ryverine.github.io/TriviaGame">
             <div class="projectLink">
-              <p class="projectTitle">Stardew Valley Trivia Quiz</p>
+              <p class="projectTitle">Stardew Valley Trivia Quiz
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">4/13/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/TriviaGame">GitHub Repository</a></p>
               <p class="projectText">
@@ -188,9 +225,11 @@
             </div>
           </a>
 
-          <a href="https://ryverine.github.io/unit-4-game">
+          <a href="https://ryverine.github.io/StarWarsRPGFighter/">
             <div class="projectLink">
-              <p class="projectTitle">Star Wars RPG Fighter</p>
+              <p class="projectTitle">Star Wars RPG Fighter
+                  <button class="goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">4/6/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/unit-4-game">GitHub Repository</a></p>
               <p class="projectText">
@@ -201,7 +240,9 @@
 
           <a href="https://ryverine.github.io/Word-Guess-Game">
             <div class="projectLink">
-              <p class="projectTitle">Super Mario Word Guess</p>
+              <p class="projectTitle">Super Mario Word Guess
+                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
+              </p>
               <p class="projectDate">3/30/2019</p>
               <p><a class="repoLink" href="https://github.com/ryverine/Word-Guess-Game">GitHub Repository</a></p>
               <p class="projectText">
@@ -210,42 +251,21 @@
             </div>
           </a>
 
-          <a href="https://ryverine.github.io/Responsive-Portfolio">
-            <div class="projectLink">
-                <p class="projectTitle">Responsive Portfolio</p>
-                <p class="projectDate">3/23/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Responsive-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                  Enhancing the basic portfolio with a mobile-responsive layout.
-                </p>
-            </div>
-            </a>
 
-            <a href="https://ryverine.github.io/Bootstrap-Portfolio">
-              <div class="projectLink">
-                <p class="projectTitle">Bootstrap Portfolio</p>
-                <p class="projectDate">3/23/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Bootstrap-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                    Re-building the basic portfolio layout using the Bootstrap CSS Framework. 
-                </p>
-              </div>
-            </a>
 
-            <a href="https://ryverine.github.io/Basic-Portfolio">
-              <div class="projectLink">
-                <p class="projectTitle">Basic Portfolio</p> 
-                <p class="projectDate">3/16/2019</p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Basic-Portfolio">GitHub Repository</a></p>
-                <p class="projectText">
-                    Building a professional portfolio site using HTML/CSS. Designing an aesthetically pleasing layout while creating different kinds of complex HTML elements.
-                </p>
-              </div>
-            </a>
 
-        </div> <!-- /mainDiv -->
+
+
+
+
+
       </div> <!-- /row -->
     </div> <!-- /container -->
+
+    <div id="footer">
+      <div id="footerTopBar"></div>
+      <div id="footerContent">Copyright ©</div>
+    </div>
 
   </body>
 </html>
