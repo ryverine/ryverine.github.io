@@ -3,7 +3,7 @@
 
   <head>
       <meta charset="UTF-8">
-      <title>Ryan Cheek</title>
+      <title>ryverine</title>
   
       <!-- Added link to the jQuery Library
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  -->
@@ -21,180 +21,233 @@
       <link rel="stylesheet" href="style.css">
   
   </head>
-<!--
-  <i class="fas fa-code-branch"></i>
-   <i class="fas fa-cogs"></i>
-<i class="fas fa-hammer"></i>
-<i class="fas fa-laptop-code"></i>
-<i class="fas fa-pencil-alt"></i>
-
-<i class="fas fa-puzzle-piece"></i>
-<i class="fas fa-project-diagram"></i>
-
-<i class="fas fa-snowplow"></i>
-<i class="fas fa-tools"></i>
-<i class="fas fa-toolbox"></i>
-<i class="fas fa-user-cog"></i>
-
-
-   <i class="far fa-file-code"></i>
-
-
-   <i class="fas fa-envelope-open-text"></i>
-   <i class="fas fa-envelope-square"></i>
-   <i class="fas fa-file-export"></i>
-   <i class="far fa-envelope-open"></i>
--->
 
   <body>
      
     <nav class="navbar">
-      <span id="myName">Ryan Cheek </span>
+      <span id="myName">github.com/ryverine</span>
       <span>
         <a href="index.html">
             <button type="button" class="btn btn-dark fas fa-arrow-alt-circle-left profileLink"> Home</button>
         </a>
-        <a href="projects.html">
-          <button type="button" class="btn btn-dark far fa-file-code profileLink"> All Projects</button>
-        </a>
+
         <a href="contact.html">
           <button type="button" class="btn btn-dark far fa-envelope-open profileLink"> Contact</button>
         </a>
         <a href="https://github.com/ryverine">
           <button type="button" class="btn btn-dark fab fa-github profileLink"> GitHub</button>
         </a>
-        <a href="https://www.linkedin.com/in/ryan-cheek-032125181/">
-          <button type="button" class="btn btn-dark fab fa-linkedin profileLink"> LinkedIn</button>
-        </a>
+
       </span>
     </nav>
+
     <div class="email-bar">
-        <span class="email-text">rwcheek@gmail.com</span>
-        <span class="skills">HTML &#8226; CSS &#8226; JavaScript &#8226; jQuery &#8226; Node &#8226; React &#8226; MySQL &#8226; MongoDB</span>
+      <span class="skills-block">
+        <!-- <span class="email-text"></span> -->
+        <span class="skill">HTML &#8226; </span> 
+        <span class="skill">CSS &#8226; </span> 
+        <span class="skill">JavaScript &#8226; </span> 
+        <span class="skill">jQuery &#8226; </span> 
+        <span class="skill">Node &#8226; </span> 
+        <span class="skill">React &#8226; </span> 
+        <span class="skill">MySQL &#8226; </span> 
+        <span class="skill">MongoDB</span>
+      </span>
     </div>
 
-     <div class="dark-bg" >
-          <p class="aboutTitle">About Me:</p>
-            <div class="aboutText">
-              Full Stack Web Developer with a background in front end development. An effective collaborator with experience working in multi-group team-based projects. A focused problem solver with a keen interest in users' relationship with data. Graduated from UNC Charlotte with a bachelors in Computer Science. Currently living in Mebane, NC with my wonderful wife and our wacky dogs.
-          </div>
-      </div>
+
 
     <div class="container">
 
       <div class="row">
 
-          <a href="https://ryverine.github.io/ColorMemoryGame/">
-            <div class="projectLink">
-              <p class="projectTitle">Color Memory Game
-                  <button class="goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-              </p>
-              <p><a class="repoLink" href="https://github.com/ryverine/colormemorygame">GitHub Repository</a></p>
-              <p class="projectText">
-                  An interactive memory game for web browsers. Breaking an application's UI into components, managing component state, and responding to user events. Click each color only once. Clicking the same color twice will end your game.</p>
-              <p class="projectText">
-                  Creating a static page React app and deploying it to GitHub Pages. Technologies include: CSS, JavaScript, Node.js, and React.js.
-                </p>
-            </div>
-          </a>
-        
-            <a href="https://ryverine.github.io/StarWarsRPGFighter/">
-              <div class="projectLink">
-                <p class="projectTitle">Star Wars RPG Fighter
-                    <button class="goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-                </p>
-                <p><a class="repoLink" href="https://github.com/ryverine/starwarsrpgfighter">GitHub Repository</a></p>
-                <p class="projectText">
-                    Creating an interactive game for web browsers. Pit classic Star Wars heroes against the most infamous villians from a galaxy far, far away. This app dynamically updates HTML pages with use of the jQuery JavaScript library.
-                  </p>
-              </div>
+        <div class="project">
+          <div>
+            <a href="https://ryverine.github.io/ColorMemoryGame/"><button class="projectTitle">Color Memory Clicky Game</button>
             </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/colormemorygame">GitHub Repository</a>
+          </div>
+          <div>
+            An interactive memory game for web browsers. Breaking an application's UI into components, managing component state, and responding to user events. Click each color only once. Clicking the same color twice will end your game. Creating a static page React app and deploying it to GitHub Pages.
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">Heroku</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">Node</button>
+            <button class="pill-btn">React</button>
+          </div>
+        </div>
 
-            <a href="https://ryverine.github.io/TrainScheduler">
-              <div class="projectLink">
-                <p class="projectTitle">Train Scheduler
-                    <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-                </p>
-                <p><a class="repoLink" href="https://github.com/ryverine/TrainScheduler">GitHub Repository</a></p>
-                <p class="projectText">
-                  A train schedule application that incorporates Firebase to host arrival and departure data. Using Momment.js to manipulate some data elements. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
-                  </p>
-              </div>
+        <div class="project">
+          <div>
+            <a href="https://ryverine.github.io/StarWarsRPGFighter/"><button class="projectTitle">Star Wars RPG Fighter</button>
             </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/starwarsrpgfighter">GitHub Repository</a>
+          </div>
+          <div>
+            Creating an interactive game for web browsers. Pit classic Star Wars heroes against the most infamous villians from a galaxy far, far away. This app dynamically updates HTML pages with use of the jQuery JavaScript library.
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">jQuery</button>
+          </div>
+        </div>
 
-            <a href="https://safe-gorge-84427.herokuapp.com/">
-              <div class="projectLink">
-                <p class="projectTitle">Eat-Da-Burger
-                    <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-                </p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Burger">GitHub Repository</a></p>
-                <p class="projectText">
-                    A burger "logger" with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars generates the HTML.
-                </p>
-                <p class="projectText">This is a Node application that is deplyed in Heroku so that it can be accessed via a web browser.</p>
-              </div>
+        <div class="project">
+          <div>
+            <a href="https://ryverine.github.io/TrainScheduler"><button class="projectTitle">Train Scheduler</button>
             </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/TrainScheduler">GitHub Repository</a>
+          </div>
+          <div>
+            A train schedule application that incorporates Firebase to host arrival and departure data. Using Momment.js to manipulate some data elements. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">Firebase</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">Moment.js</button>
+          </div>
+        </div>
 
-            <a href="https://route420react.herokuapp.com/">
-              <div class="projectLink">
-                  <p class="projectTitle">Route 420</p>
-
-                <p class="projectText">
-                    An app that builds a community around a specific product. Catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores.</p>
-
-                <p>&nbsp;</p>
-
-                <p class="projectText">
-                  To access commenting functionality, log in with this dummy account info: 
-                  <ul>
-                    <li><strong>Email:</strong> user@email.com</li>
-                    <li><strong>Password:</strong> welcome1</li>
-                  </ul>
-                </p>
-
-                <p class="projectTitle">Route 420 (React Version)
-                </p>
-                <p><a class="repoLink" href="https://route420react.herokuapp.com/">Deployed App</a></p>
-                <p><a class="repoLink" href="https://github.com/ryverine/route420react">GitHub Repository</a></p>
-                <p class="projectText">
-                  This app was built with React JS and utilizes a Mongo database. Mogoose is used in conjunction with Mongo to provide some relational fuctionality for our data.
-                </p>
-
-                <p>&nbsp;</p>
-
-                <p class="projectTitle">Route 420 (Non-React version)
-                </p>
-                <p><a class="repoLink" href="https://route420.herokuapp.com/">Back-end deployment</a></p>
-                <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">GitHub Repository</a></p>
-                <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p>
-                <p class="projectText">The back-end consists of a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS. Due to some complicaitons the front-end and back-end are not yet working in concert, but we have both deployed. The back-end is deployed in Heroku, and he front-end work is viewable via GitHub Pages.</p>
-              </div>
+        <div class="project">
+          <div>
+            <a href="https://safe-gorge-84427.herokuapp.com/"><button class="projectTitle">Eat-Da-Burger</button>
             </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/Burger">GitHub Repository</a>
+          </div>
+          <div>
+            A burger "logger" with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars generates the HTML.
+          </div>
+          <div>This is a Node application that is deplyed in Heroku so that it can be accessed via a web browser.</div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">Express</button>
+            <button class="pill-btn">Handlebars</button>
+            <button class="pill-btn">Heroku</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">MySQL</button>
+            <button class="pill-btn">Node</button>
+            <button class="pill-btn">ORM</button>
+          </div>
+        </div>
 
-          <a href="https://ryverine.github.io/Word-Guess-Game">
-            <div class="projectLink">
-              <p class="projectTitle">Super Mario Word Guess
-                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-              </p>
-              <p><a class="repoLink" href="https://github.com/ryverine/Word-Guess-Game">GitHub Repository</a></p>
-              <p class="projectText">
-                  Creating a "hangman" word guessing style game with a Super Mario theme. This runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
-                </p>
-            </div>
-          </a>
+        <div class="project">
+          <div>
+            <a href="https://route420.herokuapp.com/"><button class="projectTitle">Route 420</button>
+            </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/Location-Reddit-Clone">GitHub Repository</a>
+          <!-- <p><a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">Front-end deployment</a></p>
+          <p><a class="repoLink" href="https://github.com/ryverine/Group-Project-02">Back-end specific GitHub Repository</a></p> -->
+          </div>
+          <div>
+            An app that builds a community around a specific product. Catalogs stores that sell CBD products in North Carolina, their poducts, and allows users to comment on the various stores.
+          </div>
+          <div>Based around MVC architecture. I built the back-end functionality with a MySQL database, Node JS, Express, Sequelize as our ORM, and Handlebars for HTML templates. The front-end was designed with Bulma CSS, but due to some complicaitons the front-end and back-end are not yet working in concert. The back-end is deployed in Heroku, and he front-end work is <a class="repoLink" href="https://jdwuxui.github.io/route420CBD/">viewable via GitHub Pages</a>, but I was not involved with the front-end development of this app.</div>
+          <div>
+            To access commenting functionality, log in with this dummy account info: 
+            <ul>
+              <li><strong>Email:</strong> user@email.com</li>
+              <li><strong>Password:</strong> welcome1</li>
+            </ul>
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">Express</button>
+            <button class="pill-btn">Handlebars</button>
+            <button class="pill-btn">Heroku</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">MySQL</button>
+            <button class="pill-btn">Node</button>
+            <button class="pill-btn">Sequelize</button>
+          </div>
+        </div>
 
-          <a href="https://github.com/ryverine/bamazon">
-            <div class="projectLink">
-              <p class="projectTitle">Bamazon
-                  <button class="btn goLinkButton">View App <i class="fas fa-angle-double-right goLinkText"></i></button>
-              </p>
-              <p><a class="repoLink" href="https://github.com/ryverine/bamazon">GitHub Repository</a></p>
-              <p class="projectText">An Amazon-like storefront created in Node.js which communicates with an external MySQL database. This app will take in orders from customers and, after an order, will calculate remaining stock and update the store's inventory. 
-              </p>
-              <p class="projectText">Since this is a command line Node JS application it will not operate in your web browser.</p>
-            </div>
-          </a>
+        <div class="project">
+          <div>
+            <a href="https://route420react.herokuapp.com/"><button class="projectTitle">Route 420 (React)</button>
+            </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/route420react">GitHub Repository</a>
+          </div>
+          <div>
+            The same idea as the previously listed React project, but this time I build the project as a React app with a Mongodb NoSQL database. This is a full MERN stack application.
+          </div>
+          <div>
+            To access commenting functionality, log in with this dummy account info: 
+            <ul>
+              <li><strong>Email:</strong> user@email.com</li>
+              <li><strong>Password:</strong> welcome1</li>
+            </ul>
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">Express</button>
+            <button class="pill-btn">Heroku</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">MongoDB</button>
+            <button class="pill-btn">Node</button>
+            <button class="pill-btn">React</button>
+          </div>
+        </div>
+
+        <div class="project">
+          <div>
+            <a href="https://ryverine.github.io/Word-Guess-Game"><button class="projectTitle">Super Mario Word Guess</button>
+            </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/Word-Guess-Game">GitHub Repository</a>
+          </div>
+          <div>
+            Creating a "hangman" word guessing game with a Super Mario theme. This runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
+          </div>
+          <div>
+            <button class="pill-btn">CSS</button>
+            <button class="pill-btn">HTML</button>
+            <button class="pill-btn">JavaScript</button>
+          </div>
+        </div>
+  
+        <div class="project">
+          <div>
+            <a href="https://github.com/ryverine/bamazon"><button class="projectTitle">Bamazon</button>
+            </a>
+          </div>
+          <div>
+            <a class="repoLink" href="https://github.com/ryverine/bamazon">GitHub Repository</a>
+          </div>
+          <div>
+            An Amazon-like storefront created in Node.js which communicates with an external MySQL database. This app will take in orders from customers and, after an order, will calculate remaining stock and update the store's inventory. 
+          </div>
+          <div>
+            Since this is a command line Node JS application it will not operate in your web browser.
+          </div>
+          <div>
+            <button class="pill-btn">JavaScript</button>
+            <button class="pill-btn">MySQL</button>
+            <button class="pill-btn">Node</button>
+          </div>
+        </div>
 
       </div> <!-- /row -->
     </div> <!-- /container -->
